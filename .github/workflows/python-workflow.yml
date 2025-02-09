@@ -22,8 +22,8 @@ jobs:
     - name: download path
       uses: actions/download-artifact@v4.1.8
       with:
-            name: requirement file
-            path: requirements.txt
+            name: requirement files
+            path: requirements file
 
     - name: Install dependencies
       run: |
